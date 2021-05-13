@@ -1,0 +1,24 @@
+﻿<Window x:Class="DisplayGroupSummaries_CodeBehind.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:local="clr-namespace:DisplayGroupSummaries_CodeBehind"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <dxg:GridControl x:Name="grid" CustomSummaryExists="OnCustomSummaryExists">
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True"/>
+            </dxg:GridControl.View>
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="UserName" />
+                <dxg:GridColumn FieldName="RegistrationDate" />
+                <dxg:GridColumn FieldName="Married" GroupIndex="0" SortOrder="Ascending" />
+                <dxg:GridColumn FieldName="Age" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.GroupSummary>
+                <dxg:GridSummaryItem FieldName="Age" SummaryType="Min"/>
+                <dxg:GridSummaryItem FieldName="Age" SummaryType="Max"/>
+            </dxg:GridControl.GroupSummary>
+        </dxg:GridControl>
+    </Grid>
+</Window>

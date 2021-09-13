@@ -17,13 +17,13 @@ This example uses the [GridControl.CustomSummaryExists](https://docs.devexpress.
 
 ### Code Behind Technique
 
-- [MainWindow.xaml](./CS/DisplayGroupSummaries_CodeBehind/MainWindow.xaml#L8-L22) ([MainWindow.xaml](./VB/DisplayGroupSummaries_CodeBehind/MainWindow.xaml#L8-L22))
+- [MainWindow.xaml](./CS/DisplayGroupSummaries_CodeBehind/MainWindow.xaml) ([MainWindow.xaml](./VB/DisplayGroupSummaries_CodeBehind/MainWindow.xaml))
 - [MainWindow.xaml.cs](./CS/DisplayGroupSummaries_CodeBehind/MainWindow.xaml.cs#L62-L64) ([MainWindow.xaml.vb](./VB/DisplayGroupSummaries_CodeBehind/MainWindow.xaml.vb#L64-L66))
 
 ### MVVM Technique
 
-- [MainWindow.xaml](./CS/DisplayGroupSummaries_MVVM/MainWindow.xaml#L11-L27) ([MainWindow.xaml](./VB/DisplayGroupSummaries_MVVM/MainWindow.xaml#L11-L27))
-- [MainViewModel.cs](./CS/DisplayGroupSummaries_MVVM/MainViewModel.cs#L16-L58) ([MainViewModel.vb](./VB/DisplayGroupSummaries_MVVM/MainViewModel.vb#L16-L60))
+- [MainWindow.xaml](./CS/DisplayGroupSummaries_MVVM/MainWindow.xaml) ([MainWindow.xaml](./VB/DisplayGroupSummaries_MVVM/MainWindow.xaml))
+- [MainViewModel.cs](./CS/DisplayGroupSummaries_MVVM/MainViewModel.cs#L54-L57) ([MainViewModel.vb](./VB/DisplayGroupSummaries_MVVM/MainViewModel.vb#L56-L59))
 
 <!-- default file list end -->
 

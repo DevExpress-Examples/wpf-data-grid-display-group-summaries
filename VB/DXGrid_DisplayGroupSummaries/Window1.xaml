@@ -7,11 +7,11 @@
         <dxg:GridControl x:Name="grid" AutoGenerateColumns="AddNew"
                          CustomSummaryExists="grid_CustomSummaryExists">
             <dxg:GridControl.View>
-                <dxg:TableView AutoWidth="True" />
+                <dxg:TableView AutoWidth="True"/>
             </dxg:GridControl.View>
             <dxg:GridControl.GroupSummary>
-                <dxg:GridSummaryItem FieldName="Age" SummaryType="Min" />
-                <dxg:GridSummaryItem FieldName="Age" SummaryType="Max" />
+                <dxg:GridSummaryItem FieldName="Age" SummaryType="Min"/>
+                <dxg:GridSummaryItem FieldName="Age" SummaryType="Max"/>
             </dxg:GridControl.GroupSummary>
         </dxg:GridControl>
     </Grid>
